@@ -86,15 +86,17 @@ nav ul li a:hover::after {
    align-items: flex-start;
 }
 
-.text-content p {
-   margin-bottom: 10px;
-   font-size: 18px;
+
+.text-content p span {
+   color: #ff004f; /* 將 "passionate" 文字設為紅色或您喜歡的其他顏色 */
+   font-weight: bold; /* 加粗 */
 }
+
 
 /* Profile picture styles */
 #profile-pic {
-   width: 400px;  
-   height: 400px; 
+   width: 350px;  
+   height: 350px; 
    border-radius: 50%;
    object-fit: cover;
    margin-left: 20px;
